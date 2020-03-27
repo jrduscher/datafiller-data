@@ -15,6 +15,5 @@ const themes = require("@socialgouv/datafiller-data/data/themes.json");
 Pour mettre à jour les fiches :
 
 ```sh
-yarn build
 yarn start
 ```
