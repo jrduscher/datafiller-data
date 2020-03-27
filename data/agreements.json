@@ -1,0 +1,875 @@
+[
+  {
+    "cid": "KALICONT000005635085",
+    "groups": [
+      {
+        "id": "7",
+        "selection": [
+          "KALIARTI000005768806"
+        ]
+      },
+      {
+        "id": "10",
+        "selection": [
+          "KALIARTI000005768814"
+        ]
+      },
+      {
+        "id": "1",
+        "selection": [
+          "KALIARTI000005768824",
+          "KALIARTI000023306989",
+          "KALIARTI000005768855",
+          "KALIARTI000005768950",
+          "KALIARTI000005769518",
+          "KALIARTI000029687492"
+        ]
+      },
+      {
+        "id": "2",
+        "selection": [
+          "KALIARTI000005768824",
+          "KALIARTI000005769057",
+          "KALIARTI000005769088",
+          "KALIARTI000005769100",
+          "KALIARTI000005769297",
+          "KALIARTI000038372074",
+          "KALIARTI000038372070",
+          "KALIARTI000038372066",
+          "KALIARTI000038372062",
+          "KALIARTI000038372058"
+        ]
+      },
+      {
+        "id": "6",
+        "selection": [
+          "KALIARTI000005769314",
+          "KALIARTI000024550794",
+          "KALIARTI000005769355",
+          "KALIARTI000024550799",
+          "KALIARTI000005769399",
+          "KALIARTI000035680364",
+          "KALIARTI000032061707",
+          "KALIARTI000024550817",
+          "KALIARTI000024550827",
+          "KALIARTI000024550822",
+          "KALIARTI000005769518",
+          "KALIARTI000024550834",
+          "KALIARTI000024550839",
+          "KALIARTI000036637208",
+          "KALIARTI000024550849",
+          "KALIARTI000024550876",
+          "KALIARTI000029687500",
+          "KALIARTI000029687474"
+        ]
+      },
+      {
+        "id": "14",
+        "selection": [
+          "KALIARTI000023307040"
+        ]
+      },
+      {
+        "id": "15",
+        "selection": [
+          "KALIARTI000020195383"
+        ]
+      },
+      {
+        "id": "9",
+        "selection": [
+          "KALIARTI000020195387"
+        ]
+      },
+      {
+        "id": "5",
+        "selection": [
+          "KALIARTI000030598154",
+          "KALIARTI000005770630",
+          "KALIARTI000027727208",
+          "KALIARTI000027730562",
+          "KALIARTI000005770665",
+          "KALIARTI000038609962",
+          "KALIARTI000005770682",
+          "KALIARTI000005770693",
+          "KALIARTI000038609964",
+          "KALIARTI000005770711",
+          "KALIARTI000005770722",
+          "KALIARTI000005770732",
+          "KALIARTI000005770746",
+          "KALIARTI000005770774",
+          "KALIARTI000031274863",
+          "KALIARTI000005770794",
+          "KALIARTI000005770783"
+        ]
+      }
+    ]
+  },
+  {
+    "cid": "KALICONT000005635149",
+    "groups": [
+      {
+        "id": "1",
+        "selection": [
+          "KALIARTI000036772125"
+        ]
+      },
+      {
+        "id": "16",
+        "selection": [
+          "KALIARTI000005834005"
+        ]
+      },
+      {
+        "id": "6",
+        "selection": [
+          "KALIARTI000005834020"
+        ]
+      }
+    ]
+  },
+  {
+    "cid": "KALICONT000005635173",
+    "groups": [
+      {
+        "id": "6",
+        "selection": [
+          "KALIARTI000005851474",
+          "KALIARTI000005851477",
+          "KALIARTI000005851479",
+          "KALIARTI000005851483",
+          "KALIARTI000024448724",
+          "KALIARTI000024448803",
+          "KALIARTI000024448830",
+          "KALIARTI000005851485",
+          "KALIARTI000005851487",
+          "KALIARTI000005851489"
+        ]
+      },
+      {
+        "id": "2",
+        "selection": [
+          "KALIARTI000005851491"
+        ]
+      }
+    ]
+  },
+  {
+    "cid": "KALICONT000005635191",
+    "groups": [
+      {
+        "id": "10",
+        "selection": [
+          "KALIARTI000005846024"
+        ]
+      },
+      {
+        "id": "14",
+        "selection": [
+          "KALIARTI000035353119",
+          "KALIARTI000005864984"
+        ]
+      }
+    ]
+  },
+  {
+    "cid": "KALICONT000005635220",
+    "groups": [
+      {
+        "id": "6",
+        "selection": [
+          "KALIARTI000005776777",
+          "KALIARTI000005776778",
+          "KALIARTI000005776779",
+          "KALIARTI000005776780",
+          "KALIARTI000005776782",
+          "KALIARTI000005776785",
+          "KALIARTI000005776786",
+          "KALIARTI000005776787",
+          "KALIARTI000005776788",
+          "KALIARTI000005776789",
+          "KALIARTI000005776790",
+          "KALIARTI000005776793",
+          "KALIARTI000005776796",
+          "KALIARTI000005776797"
+        ]
+      },
+      {
+        "id": "2",
+        "selection": [
+          "KALIARTI000005776872",
+          "KALIARTI000005776873",
+          "KALIARTI000005776874",
+          "KALIARTI000005776875",
+          "KALIARTI000005776877",
+          "KALIARTI000005776878",
+          "KALIARTI000005776879"
+        ]
+      },
+      {
+        "id": "1",
+        "selection": [
+          "KALIARTI000005776764",
+          "KALIARTI000005776799",
+          "KALIARTI000005776800",
+          "KALIARTI000005776881"
+        ]
+      }
+    ]
+  },
+  {
+    "cid": "KALICONT000005635221",
+    "groups": [
+      {
+        "id": "1",
+        "selection": [
+          "KALIARTI000005778263",
+          "KALIARTI000005778297",
+          "KALIARTI000005778298",
+          "KALIARTI000005778377"
+        ]
+      },
+      {
+        "id": "6",
+        "selection": [
+          "KALIARTI000005778277",
+          "KALIARTI000005778278",
+          "KALIARTI000005778279",
+          "KALIARTI000005778280",
+          "KALIARTI000005778282",
+          "KALIARTI000005778283",
+          "KALIARTI000005778285",
+          "KALIARTI000005778286",
+          "KALIARTI000005778288",
+          "KALIARTI000005778289",
+          "KALIARTI000005778294",
+          "KALIARTI000005778295"
+        ]
+      },
+      {
+        "id": "2",
+        "selection": [
+          "KALIARTI000005778366",
+          "KALIARTI000005778367",
+          "KALIARTI000005778368",
+          "KALIARTI000005778369",
+          "KALIARTI000005778370",
+          "KALIARTI000005778374",
+          "KALIARTI000005778375"
+        ]
+      }
+    ]
+  },
+  {
+    "cid": "KALICONT000005635373",
+    "groups": [
+      {
+        "id": "16",
+        "selection": [
+          "KALIARTI000026802032"
+        ]
+      },
+      {
+        "id": "6",
+        "selection": [
+          "KALIARTI000026801942",
+          "KALIARTI000005836419"
+        ]
+      }
+    ]
+  },
+  {
+    "cid": "KALICONT000005635405",
+    "groups": [
+      {
+        "id": "16",
+        "selection": [
+          "KALIARTI000005853753"
+        ]
+      },
+      {
+        "id": "6",
+        "selection": [
+          "KALIARTI000005853755"
+        ]
+      },
+      {
+        "id": "2",
+        "selection": [
+          "KALIARTI000005853756"
+        ]
+      },
+      {
+        "id": "1",
+        "selection": [
+          "KALIARTI000005853757"
+        ]
+      },
+      {
+        "id": "5",
+        "selection": [
+          "KALIARTI000029901337"
+        ]
+      }
+    ]
+  },
+  {
+    "cid": "KALICONT000005635407",
+    "groups": [
+      {
+        "id": "6",
+        "selection": [
+          "KALIARTI000005863131"
+        ]
+      },
+      {
+        "id": "1",
+        "selection": [
+          "KALIARTI000005863152",
+          "KALIARTI000023559629"
+        ]
+      },
+      {
+        "id": "2",
+        "selection": [
+          "KALIARTI000005863154"
+        ]
+      }
+    ]
+  },
+  {
+    "cid": "KALICONT000005635467",
+    "groups": [
+      {
+        "id": "6",
+        "selection": [
+          "KALIARTI000005801756",
+          "KALIARTI000005801757",
+          "KALIARTI000005801760",
+          "KALIARTI000005801761",
+          "KALIARTI000005801764",
+          "KALIARTI000005801765",
+          "KALIARTI000005801766",
+          "KALIARTI000005801767",
+          "KALIARTI000005801769",
+          "KALIARTI000005801770",
+          "KALIARTI000005801771",
+          "KALIARTI000005801772",
+          "KALIARTI000005801775",
+          "KALIARTI000005801776",
+          "KALIARTI000005801779",
+          "KALIARTI000005801780",
+          "KALIARTI000005801781",
+          "KALIARTI000005801784"
+        ]
+      },
+      {
+        "id": "1",
+        "selection": [
+          "KALIARTI000005801767",
+          "KALIARTI000005801786",
+          "KALIARTI000005801788",
+          "KALIARTI000005801789"
+        ]
+      },
+      {
+        "id": "2",
+        "selection": [
+          "KALIARTI000005801862",
+          "KALIARTI000005801864",
+          "KALIARTI000005801865",
+          "KALIARTI000005801866",
+          "KALIARTI000005801867",
+          "KALIARTI000005801869",
+          "KALIARTI000005801870",
+          "KALIARTI000005801871",
+          "KALIARTI000005801872",
+          "KALIARTI000005801873"
+        ]
+      }
+    ]
+  },
+  {
+    "cid": "KALICONT000005635534",
+    "groups": [
+      {
+        "id": "16",
+        "selection": [
+          "KALIARTI000005826265"
+        ]
+      },
+      {
+        "id": "9",
+        "selection": [
+          "KALIARTI000005826267"
+        ]
+      },
+      {
+        "id": "6",
+        "selection": [
+          "KALIARTI000005826281",
+          "KALIARTI000005826283",
+          "KALIARTI000005826279"
+        ]
+      },
+      {
+        "id": "2",
+        "selection": [
+          "KALIARTI000005826301"
+        ]
+      },
+      {
+        "id": "1",
+        "selection": [
+          "KALIARTI000005826303"
+        ]
+      },
+      {
+        "id": "11",
+        "selection": [
+          "KALIARTI000027792260"
+        ]
+      },
+      {
+        "id": "7",
+        "selection": [
+          "KALIARTI000005826270"
+        ]
+      }
+    ]
+  },
+  {
+    "cid": "KALICONT000005635596",
+    "groups": [
+      {
+        "id": "16",
+        "selection": [
+          "KALIARTI000005833458",
+          "KALIARTI000005833461"
+        ]
+      },
+      {
+        "id": "5",
+        "selection": [
+          "KALIARTI000023371129",
+          "KALIARTI000023371189",
+          "KALIARTI000038623133",
+          "KALIARTI000023371179",
+          "KALIARTI000028917835",
+          "KALIARTI000023371169",
+          "KALIARTI000023371165",
+          "KALIARTI000023371161",
+          "KALIARTI000028917840",
+          "KALIARTI000023371153",
+          "KALIARTI000023371149",
+          "KALIARTI000023371145"
+        ]
+      },
+      {
+        "id": "6",
+        "selection": [
+          "KALIARTI000005833489",
+          "KALIARTI000005833490",
+          "KALIARTI000005833493",
+          "KALIARTI000005833495",
+          "KALIARTI000026448894",
+          "KALIARTI000035544159",
+          "KALIARTI000005833505"
+        ]
+      },
+      {
+        "id": "2",
+        "selection": [
+          "KALIARTI000036417274"
+        ]
+      },
+      {
+        "id": "1",
+        "selection": [
+          "KALIARTI000038162821"
+        ]
+      }
+    ]
+  },
+  {
+    "cid": "KALICONT000005635624",
+    "groups": [
+      {
+        "id": "9",
+        "selection": [
+          "KALIARTI000005849349"
+        ]
+      },
+      {
+        "id": "6",
+        "selection": [
+          "KALIARTI000005849335"
+        ]
+      },
+      {
+        "id": "1",
+        "selection": [
+          "KALIARTI000005849314"
+        ]
+      },
+      {
+        "id": "15",
+        "selection": [
+          "KALIARTI000005849340"
+        ]
+      }
+    ]
+  },
+  {
+    "cid": "KALICONT000005635780",
+    "groups": [
+      {
+        "id": "7",
+        "selection": [
+          "KALIARTI000005771942",
+          "KALIARTI000005772498"
+        ]
+      },
+      {
+        "id": "2",
+        "selection": [
+          "KALIARTI000020406878",
+          "KALIARTI000005792681",
+          "KALIARTI000005793868"
+        ]
+      },
+      {
+        "id": "1",
+        "selection": [
+          "KALIARTI000005801232",
+          "KALIARTI000005802231",
+          "KALIARTI000024365258",
+          "KALIARTI000020406871",
+          "KALIARTI000005807362",
+          "KALIARTI000005808632",
+          "KALIARTI000005811388",
+          "KALIARTI000005812495",
+          "KALIARTI000005810251"
+        ]
+      },
+      {
+        "id": "6",
+        "selection": [
+          "KALIARTI000005829140",
+          "KALIARTI000005830016",
+          "KALIARTI000005830117"
+        ]
+      }
+    ]
+  },
+  {
+    "cid": "KALICONT000005635813",
+    "groups": [
+      {
+        "id": "16",
+        "selection": [
+          "KALIARTI000020533094",
+          "KALIARTI000005801601",
+          "KALIARTI000020533090",
+          "KALIARTI000020533086"
+        ]
+      },
+      {
+        "id": "6",
+        "selection": [
+          "KALIARTI000005802031",
+          "KALIARTI000005802040",
+          "KALIARTI000020533144"
+        ]
+      },
+      {
+        "id": "1",
+        "selection": [
+          "KALIARTI000005802255",
+          "KALIARTI000005802271",
+          "KALIARTI000005802283",
+          "KALIARTI000020533184",
+          "KALIARTI000005802311",
+          "KALIARTI000005802322",
+          "KALIARTI000020533181",
+          "KALIARTI000005802379"
+        ]
+      },
+      {
+        "id": "9",
+        "selection": [
+          "KALIARTI000020533181",
+          "KALIARTI000020533178"
+        ]
+      },
+      {
+        "id": "5",
+        "selection": [
+          "KALIARTI000020533187",
+          "KALIARTI000020977284",
+          "KALIARTI000005802429"
+        ]
+      },
+      {
+        "id": "2",
+        "selection": [
+          "KALIARTI000005802507",
+          "KALIARTI000005802527",
+          "KALIARTI000005802545",
+          "KALIARTI000005802552",
+          "KALIARTI000005802563",
+          "KALIARTI000005802583",
+          "KALIARTI000005802595",
+          "KALIARTI000005802614",
+          "KALIARTI000005802628",
+          "KALIARTI000005802639",
+          "KALIARTI000005802657",
+          "KALIARTI000005802677"
+        ]
+      }
+    ]
+  },
+  {
+    "cid": "KALICONT000005635842",
+    "groups": [
+      {
+        "id": "1",
+        "selection": [
+          "KALIARTI000005836190",
+          "KALIARTI000005836195",
+          "KALIARTI000005836196"
+        ]
+      },
+      {
+        "id": "2",
+        "selection": [
+          "KALIARTI000005836193",
+          "KALIARTI000005836194"
+        ]
+      }
+    ]
+  },
+  {
+    "cid": "KALICONT000025805800",
+    "groups": [
+      {
+        "id": "16",
+        "selection": [
+          "KALIARTI000025805553"
+        ]
+      },
+      {
+        "id": "1",
+        "selection": [
+          "KALIARTI000025805587",
+          "KALIARTI000025805588",
+          "KALIARTI000025805589",
+          "KALIARTI000025805591",
+          "KALIARTI000025805590",
+          "KALIARTI000025805592",
+          "KALIARTI000025805593",
+          "KALIARTI000025805594",
+          "KALIARTI000025805595",
+          "KALIARTI000025805596",
+          "KALIARTI000025805597",
+          "KALIARTI000025805598",
+          "KALIARTI000025805599"
+        ]
+      },
+      {
+        "id": "2",
+        "selection": [
+          "KALIARTI000025805582",
+          "KALIARTI000025805583",
+          "KALIARTI000025805584",
+          "KALIARTI000038781026",
+          "KALIARTI000025805600",
+          "KALIARTI000025805601",
+          "KALIARTI000025805602"
+        ]
+      },
+      {
+        "id": "10",
+        "selection": [
+          "KALIARTI000025805623"
+        ]
+      },
+      {
+        "id": "6",
+        "selection": [
+          "KALIARTI000025805638",
+          "KALIARTI000025805639",
+          "KALIARTI000033116260",
+          "KALIARTI000025805641",
+          "KALIARTI000025805642",
+          "KALIARTI000025805643",
+          "KALIARTI000025805644",
+          "KALIARTI000025805645",
+          "KALIARTI000025805646",
+          "KALIARTI000025805647",
+          "KALIARTI000025805648",
+          "KALIARTI000033116262",
+          "KALIARTI000025805650",
+          "KALIARTI000037358740",
+          "KALIARTI000025805652",
+          "KALIARTI000025805653",
+          "KALIARTI000025805654",
+          "KALIARTI000025805655",
+          "KALIARTI000025805656",
+          "KALIARTI000025805657",
+          "KALIARTI000025805661",
+          "KALIARTI000025805660",
+          "KALIARTI000025805659",
+          "KALIARTI000025805658",
+          "KALIARTI000025805670",
+          "KALIARTI000025805669",
+          "KALIARTI000025805667",
+          "KALIARTI000025805666",
+          "KALIARTI000025805665",
+          "KALIARTI000025805664",
+          "KALIARTI000025805663",
+          "KALIARTI000025805671",
+          "KALIARTI000025805672",
+          "KALIARTI000025805673",
+          "KALIARTI000025805662",
+          "KALIARTI000025805675",
+          "KALIARTI000025805676",
+          "KALIARTI000033116268",
+          "KALIARTI000033116266",
+          "KALIARTI000025805679",
+          "KALIARTI000025805678",
+          "KALIARTI000025805677"
+        ]
+      },
+      {
+        "id": "5",
+        "selection": [
+          "KALIARTI000034837275",
+          "KALIARTI000030611069",
+          "KALIARTI000025805740",
+          "KALIARTI000025805741",
+          "KALIARTI000025805742",
+          "KALIARTI000025805743",
+          "KALIARTI000025805744",
+          "KALIARTI000030611067",
+          "KALIARTI000025805746",
+          "KALIARTI000030611065",
+          "KALIARTI000025805750",
+          "KALIARTI000025805756",
+          "KALIARTI000025805758",
+          "KALIARTI000030611063",
+          "KALIARTI000025805760",
+          "KALIARTI000030065601",
+          "KALIARTI000034834821",
+          "KALIARTI000030065596",
+          "KALIARTI000030065594",
+          "KALIARTI000025805767",
+          "KALIARTI000030065592",
+          "KALIARTI000025805770",
+          "KALIARTI000031926139",
+          "KALIARTI000025805773",
+          "KALIARTI000030065590",
+          "KALIARTI000030065586",
+          "KALIARTI000025805779",
+          "KALIARTI000034834819",
+          "KALIARTI000025805781",
+          "KALIARTI000025805786",
+          "KALIARTI000025805787",
+          "KALIARTI000030611061"
+        ]
+      },
+      {
+        "id": "15",
+        "selection": [
+          "KALIARTI000025805517",
+          "KALIARTI000025805515",
+          "KALIARTI000025805514",
+          "KALIARTI000025805513",
+          "KALIARTI000025805512",
+          "KALIARTI000025805511",
+          "KALIARTI000025805509"
+        ]
+      }
+    ]
+  },
+  {
+    "cid": "KALICONT000027172335",
+    "groups": [
+      {
+        "id": "16",
+        "selection": [
+          "KALIARTI000027172369"
+        ]
+      },
+      {
+        "id": "9",
+        "selection": [
+          "KALIARTI000027172415"
+        ]
+      },
+      {
+        "id": "6",
+        "selection": [
+          "KALIARTI000027172495"
+        ]
+      },
+      {
+        "id": "2",
+        "selection": [
+          "KALIARTI000027172412"
+        ]
+      },
+      {
+        "id": "1",
+        "selection": [
+          "KALIARTI000027172413"
+        ]
+      },
+      {
+        "id": "4",
+        "selection": [
+          "KALIARTI000031429512",
+          "KALIARTI000031429513",
+          "KALIARTI000031429656",
+          "KALIARTI000031429659",
+          "KALIARTI000031429662",
+          "KALIARTI000031429663",
+          "KALIARTI000031429666",
+          "KALIARTI000031429668",
+          "KALIARTI000031429670"
+        ]
+      }
+    ]
+  },
+  {
+    "cid": "KALICONT000038292684",
+    "groups": [
+      {
+        "id": "1",
+        "selection": [
+          "KALIARTI000038276922",
+          "KALIARTI000038276923",
+          "KALIARTI000038276924",
+          "KALIARTI000038276925",
+          "KALIARTI000038276926",
+          "KALIARTI000038276927",
+          "KALIARTI000038276928",
+          "KALIARTI000038276931"
+        ]
+      },
+      {
+        "id": "2",
+        "selection": [
+          "KALIARTI000038276922"
+        ]
+      },
+      {
+        "id": "6",
+        "selection": [
+          "KALIARTI000038276929",
+          "KALIARTI000038276930"
+        ]
+      }
+    ]
+  }
+]
