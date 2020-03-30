@@ -24,7 +24,9 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: yarn 
-    - run: yarn run-p lint test
+    - run: yarn --frozen-lockfile
+    - run: yarn lint
+    - run: yarn test --coverage
       env:
         CI: true
+    - uses: codecov/codecov-action@v1
