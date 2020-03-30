@@ -23,4 +23,13 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npx semantic-release
+        run: | 
+          yarn start
+          if [[ "$(git status data/ --porcelain)" != "" ]]; then
+            NOW=$(date +"%Y%m%d_%H%M")
+            git add data
+            git commit -m"feat(data): $NOW update" 
+            npx semantic-release
+          else
+            echo "no changes detected"
+          fi
