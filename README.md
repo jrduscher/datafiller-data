@@ -1,5 +1,8 @@
 # @socialgouv/datafiller-data
 
+![Node.js CI](https://github.com/SocialGouv/datafiller-data/workflows/Node.js%20CI/badge.svg)
+[![codecov](https://codecov.io/gh/SocialGouv/datafiller-data/branch/master/graph/badge.svg)](https://codecov.io/gh/SocialGouv/datafiller-data)
+
 ## Usage
 
 ```js
