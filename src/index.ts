@@ -8,6 +8,7 @@ import { getGlossary } from "./glossary";
 import { getHightlights } from "./highlights";
 import { getThemes } from "./themes";
 import { getAgreementArticles } from "./agreements";
+import { getExternalDocUrl } from "./externalDocs";
 
 const DATAFILLER_URL = process.env.DATAFILLER_URL || "";
 
@@ -48,7 +49,8 @@ const config = {
   glossary: getGlossary,
   hightlights: getHightlights,
   themes: getThemes,
-  agreements: getAgreementArticles
+  agreements: getAgreementArticles,
+  externals: getExternalDocUrl
 };
 
 async function main(): Promise<void> {

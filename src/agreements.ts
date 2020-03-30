@@ -1,9 +1,14 @@
 import fetch from "node-fetch";
 import { KintoResponse } from ".";
 
-type AgreementsItem = {
+type AgreementsItemRaw = {
   cid: string;
   groups?: ArticleGroup[];
+};
+
+type AgreementsItem = {
+  cid: string;
+  groups: ArticleGroup[];
 };
 
 type ArticleGroup = {
@@ -11,21 +16,25 @@ type ArticleGroup = {
   selection: string[];
 };
 
+export function processAgreements(
+  items: AgreementsItemRaw[]
+): AgreementsItem[] {
+  return items
+    .map(({ cid, groups }) => ({
+      cid,
+      groups: (groups || []).filter(group => group.selection.length > 0)
+    }))
+    .filter(item => item.groups.length > 0);
+}
+
 export async function getAgreementArticles(
   baseUrl: string
 ): Promise<AgreementsItem[]> {
   const response = await fetch(
     `${baseUrl}/kinto/v1/buckets/datasets/collections/ccns/records?_sort=cid`
   );
-  const items: KintoResponse<AgreementsItem[]> = await response.json();
-  return items.data
-    .map(({ cid, groups }) => {
-      return {
-        cid,
-        groups: (groups || []).filter(group => group.selection.length > 0)
-      };
-    })
-    .filter(item => item.groups.length > 0);
+  const items: KintoResponse<AgreementsItemRaw[]> = await response.json();
+  return processAgreements(items.data);
 }
 
 if (require.main === module) {

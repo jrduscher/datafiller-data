@@ -9,7 +9,7 @@ type ThemeRaw = {
   variants: string;
   position: number;
   refs: Reference[];
-  parent?: string;
+  parent?: string | null;
   icon?: string;
 };
 
@@ -48,18 +48,15 @@ function getChildren(theme: ThemeRaw, themes: ThemeRaw[]): SubTheme[] {
     .map(({ title, position }) => ({ label: title, position }));
 }
 
-export async function getThemes(baseUrl: string): Promise<Theme[]> {
-  const response = await fetch(
-    `${baseUrl}/kinto/v1/buckets/datasets/collections/themes/records?_sort=title`
-  );
-  const items: KintoResponse<ThemeRaw[]> = await response.json();
-  const itemMap: ThemeMap = items.data.reduce((items, item) => {
+export function processThemes(items: ThemeRaw[]): Theme[] {
+  const itemMap: ThemeMap = items.reduce((items, item) => {
     items[item.id] = item;
     return items;
   }, {});
-  return items.data.map(theme => {
+
+  return items.map(theme => {
     const breadcrumbs = getParents(theme, itemMap);
-    const children = getChildren(theme, items.data);
+    const children = getChildren(theme, items);
     return {
       breadcrumbs,
       children,
@@ -70,6 +67,14 @@ export async function getThemes(baseUrl: string): Promise<Theme[]> {
       variants: getVariants(theme)
     };
   });
+}
+
+export async function getThemes(baseUrl: string): Promise<Theme[]> {
+  const response = await fetch(
+    `${baseUrl}/kinto/v1/buckets/datasets/collections/themes/records?_sort=title`
+  );
+  const items: KintoResponse<ThemeRaw[]> = await response.json();
+  return processThemes(items.data);
 }
 
 if (require.main === module) {

@@ -1,6 +1,6 @@
 import fetch from "node-fetch";
 import * as remark from "remark";
-import html from "remark-html";
+import * as html from "remark-html";
 import { KintoResponse, Reference } from ".";
 
 const compiler = remark().use(html, { sanitize: true });
@@ -21,12 +21,8 @@ type GlossaryItem = {
   refs: Reference[];
 };
 
-export async function getGlossary(baseUrl: string): Promise<GlossaryItem[]> {
-  const response = await fetch(
-    `${baseUrl}/kinto/v1/buckets/datasets/collections/glossaire/records`
-  );
-  const items: KintoResponse<GlossaryRawItem[]> = await response.json();
-  return items.data
+export function processGlossary(items: GlossaryRawItem[]): GlossaryItem[] {
+  return items
     .filter(item => item.title && item.definition)
     .map(item => ({
       title: item.title.trim(),
@@ -42,12 +38,21 @@ export async function getGlossary(baseUrl: string): Promise<GlossaryItem[]> {
       definition: compiler
         .processSync(item.definition)
         .contents.toString()
-        .replace(/\n/g, ""),
+        .replace(/\n/g, "")
+        .replace(/(\s)\s+/g, "$1"),
       refs: item.refs
     }))
     .sort(({ title: titleA }, { title: titleB }) =>
       titleA.localeCompare(titleB)
     );
+}
+
+export async function getGlossary(baseUrl: string): Promise<GlossaryItem[]> {
+  const response = await fetch(
+    `${baseUrl}/kinto/v1/buckets/datasets/collections/glossaire/records`
+  );
+  const items: KintoResponse<GlossaryRawItem[]> = await response.json();
+  return processGlossary(items.data);
 }
 
 if (require.main === module) {

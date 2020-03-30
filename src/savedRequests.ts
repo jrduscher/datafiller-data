@@ -6,8 +6,7 @@ import { decodeHTML } from "./decodeHtml";
 
 type SavedRequestsRaw = {
   title: string;
-  theme: string;
-  variants: string;
+  variants?: string;
   refs: Reference[];
 };
 
@@ -52,15 +51,10 @@ async function fixRefsTitles(ref: Reference): Promise<Reference> {
   };
 }
 
-export async function getSavedRequests(
-  baseUrl: string
+export async function processRequests(
+  items: SavedRequestsRaw[]
 ): Promise<SavedRequest[]> {
-  const response = await fetch(
-    `${baseUrl}/kinto/v1/buckets/datasets/collections/requetes/records?_sort=title`
-  );
-  const items: KintoResponse<SavedRequestsRaw[]> = await response.json();
-
-  const rows = items.data.filter(hasRef).map(async item => {
+  const rows = items.filter(hasRef).map(async item => {
     return {
       title: item.title,
       variants: getVariants(item),
@@ -68,6 +62,16 @@ export async function getSavedRequests(
     };
   });
   return Promise.all(rows);
+}
+
+export async function getSavedRequests(
+  baseUrl: string
+): Promise<SavedRequest[]> {
+  const response = await fetch(
+    `${baseUrl}/kinto/v1/buckets/datasets/collections/requetes/records?_sort=title`
+  );
+  const items: KintoResponse<SavedRequestsRaw[]> = await response.json();
+  return processRequests(items.data);
 }
 
 if (require.main === module) {

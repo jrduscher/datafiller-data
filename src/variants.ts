@@ -10,5 +10,5 @@ export function getVariants<T extends Row>(row: T): string[] {
 
 type Row = {
   title: string;
-  variants: string;
+  variants?: string;
 };
