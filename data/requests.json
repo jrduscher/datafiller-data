@@ -706,24 +706,24 @@
     ],
     "refs": [
       {
-        "url": "/fiche-ministere-travail/amiante#Cadre-reglementaire",
-        "title": "Amiante : cadre réglementaire",
-        "position": 1
+        "url": "/fiche-ministere-travail/amiante#Reperage-avant-travaux",
+        "title": "Amiante : repérage avant-travaux",
+        "position": 0
       },
       {
         "url": "/fiche-ministere-travail/amiante#Interventions-sur-materiaux-amiantes-les-modes-operatoires-a-mettre-en-nbsp",
         "title": "Amiante : interventions sur matériaux amiantés : les modes opératoires à mettre en œuvre pour se protéger lors d’interventions courantes",
-        "position": 2
-      },
-      {
-        "url": "/fiche-ministere-travail/amiante#Reperage-avant-travaux",
-        "title": "Amiante : repérage avant-travaux",
-        "position": 3
+        "position": 1
       },
       {
         "url": "/fiche-ministere-travail/amiante#Pour-en-savoir-plus",
         "title": "Amiante : pour en savoir plus",
-        "position": 4
+        "position": 2
+      },
+      {
+        "url": "/fiche-ministere-travail/amiante#Cadre-reglementaire",
+        "title": "Amiante : cadre réglementaire",
+        "position": 3
       }
     ]
   },
