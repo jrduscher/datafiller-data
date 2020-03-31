@@ -737,34 +737,34 @@
     ],
     "refs": [
       {
+        "url": "/fiche-ministere-travail/la-mensualisation#Le-montant-du-salaire-peut-il-varier",
+        "title": "La mensualisation : le montant du salaire peut-il varier ?",
+        "position": 0
+      },
+      {
         "url": "/fiche-ministere-travail/la-mensualisation#Comment-se-calcule-le-salaire-mensuel",
         "title": "La mensualisation : comment se calcule le salaire mensuel ?",
         "position": 1
       },
       {
-        "url": "/outils/simulateur-embauche",
-        "title": "Salaire brut/net",
+        "url": "/fiche-ministere-travail/la-mensualisation#Quels-sont-les-autres-effets-de-la-mensualisation",
+        "title": "La mensualisation : quels sont les autres effets de la mensualisation ?",
         "position": 2
       },
       {
-        "url": "/fiche-ministere-travail/la-mensualisation#Le-montant-du-salaire-peut-il-varier",
-        "title": "La mensualisation : le montant du salaire peut-il varier ?",
+        "url": "/outils/simulateur-embauche",
+        "title": "Salaire brut/net",
         "position": 3
-      },
-      {
-        "url": "/fiche-ministere-travail/la-mensualisation#Quels-sont-les-autres-effets-de-la-mensualisation",
-        "title": "La mensualisation : quels sont les autres effets de la mensualisation ?",
-        "position": 4
       },
       {
         "url": "/fiche-ministere-travail/le-salaire-fixation-et-paiement#Comment-est-fixe-le-salaire-de-base",
         "title": "Le salaire : comment est fixé le salaire de base ?",
-        "position": 5
+        "position": 4
       },
       {
         "url": "/fiche-ministere-travail/le-salaire-fixation-et-paiement",
         "title": "Le salaire : fixation et paiement",
-        "position": 6
+        "position": 5
       }
     ]
   },
